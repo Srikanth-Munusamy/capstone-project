@@ -1,0 +1,7 @@
+.venv
+terraform/.terraform
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfvars.example
+src/ev_battery_health_intelligence.egg-info
+src/__pycache__

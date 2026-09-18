@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: ev-battery-health-intelligence
+Version: 0.1.0
+Summary: EV battery health intelligence project for BMW battery degradation analysis and dashboarding
+Author: Capstone Project Team
+License: MIT
+Keywords: ev,battery,pyspark,analytics,dashboard
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.13,>=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pyspark>=3.5.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: numpy>=1.26.0
+Requires-Dist: pyarrow>=15.0.0
+Requires-Dist: boto3>=1.34.0
+Requires-Dist: pyathena>=3.0.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: jupyter>=1.0.0
+Requires-Dist: matplotlib>=3.8.0
+Requires-Dist: seaborn>=0.13.0
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: black>=24.0.0; extra == "dev"
+Requires-Dist: isort>=5.13.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
