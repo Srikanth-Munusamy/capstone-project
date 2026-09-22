@@ -85,6 +85,19 @@ $env:WRITE_CURATED_TO_S3="false"
 python .\src\battery_health_pipeline.py
 ```
 
+## Documentation
+
+Install the documentation dependencies and build the Sphinx site:
+
+```powershell
+python -m pip install -e ".[docs]"
+python -m sphinx -b html -W docs docs/_build/html
+```
+
+Open `docs/_build/html/index.html` after the build. The documentation covers
+the architecture, calculations, configuration, operations, and generated
+Python API reference.
+
 ## Next Steps
 1. Load data with PySpark
 2. Clean and validate schema
@@ -94,3 +107,7 @@ python .\src\battery_health_pipeline.py
 6. Publish curated Parquet to S3
 7. Refresh Athena partitions
 8. Refresh QuickSight
+
+
+output url:
+https://eu-north-1.quicksight.aws.amazon.com/sn/account/tamizh-sk/dashboards/f35efd04-f1ca-453b-9a3c-805ea77a0564

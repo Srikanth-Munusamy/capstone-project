@@ -40,6 +40,10 @@ dev = [
   "isort>=5.13.0",
   "ruff>=0.4.0",
 ]
+docs = [
+  "sphinx>=7.0",
+  "sphinxcontrib-mermaid>=0.9",
+]
 
 [tool.setuptools]
 include-package-data = true

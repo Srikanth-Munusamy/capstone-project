@@ -3,5 +3,7 @@ terraform/.terraform
 terraform/.terraform.lock.hcl
 terraform/terraform.tfstate
 terraform/terraform.tfvars.example
+terraform/terraform.tfstate.backup
 src/ev_battery_health_intelligence.egg-info
 src/__pycache__
+path.md
